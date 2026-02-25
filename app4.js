@@ -8,3 +8,13 @@ var compara = 10 > 8 && 10 == 10
 console.log(compara);
 var compara = true && true;
 console.log("Comparacion &&: "+compara);
+
+var compara = 10 > 8 || 10 == 9
+console.log(compara);
+var compara = true || false;
+console.log("Comparacion ||: "+compara);    
+
+var compara = !(10 > 8)
+console.log(compara);
+var compara = !true;
+console.log("Comparacion !: "+compara);
